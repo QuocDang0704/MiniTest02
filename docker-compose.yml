@@ -1,0 +1,12 @@
+version: '2'
+services:
+  fis-training-db:
+    image: mysql:latest
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpw
+      MYSQL_DATABASE: fis-training
+      MYSQL_USER: training
+      MYSQL_PASSWORD: training

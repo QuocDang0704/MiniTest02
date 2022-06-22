@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: fis-training-test-02
+  datasource:
+    url: jdbc:mysql://159.223.79.247:3306/quoc_quy
+    username: root
+    password: quanla02@ciuz
+  jpa:
+    show-sql: true
+    generate-ddl: true
+
